@@ -6,6 +6,9 @@
 
 
 .slide-container {
+
+
+
     width: 100%;
     // margin-top: 5rem;
     padding-top: 5rem;
@@ -13,25 +16,41 @@
     padding-bottom: 5rem;
 
     .carousel-div {
-        height: 60vh;
+        height: auto;
+
 
         .carousel-img {
+
             background-position: center;
             background-size: cover;
-            height: 100%;
-            width: 100%;
+            max-width: 100%;
+
+            object-fit: cover;
+
+            @include md {
+                background-position: center;
+                background-size: cover;
+                height: 100%;
+                width: 100%;
+                max-width: 100%;
+
+                object-fit: cover;
+            }
         }
+
+
 
     }
 
+
 }
-                                                                                                                                                                                                                                                                                                                                                                                                
+
 .sales {
-    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    width: 100%;
     // margin: 10px;
     padding-top: 10rem;
     padding-bottom: 8rem;
-    transition: all ease 0.3s; 
+    transition: all ease 0.3s;
     display: block;
     width: 100%;
     cursor: pointer;
@@ -52,11 +71,11 @@
             gap: 1rem;
         }
 
-       
+
         .sales-div {
             // width: 100%;
             height: 180px;
-              
+
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -69,9 +88,9 @@
 
             }
         }
-       
 
-       
+
+
     }
 }
 

@@ -33,15 +33,23 @@ const Banner = () => {
       <div className="slide-container">
         <Slide>
           <div className="carousel-div">
-            <img className="carousel-img" src={SliderImg1} alt="Image 1" />
+            <img
+             
+            className="carousel-img" src={SliderImg1} alt="Image 1" />
           </div>
           <div className="carousel-div">
-            <img className="carousel-img" src={SliderImg2} alt="Image 2" />
+            <img
+             
+            className="carousel-img" src={SliderImg2} alt="Image 2" />
           </div>
           <div className="carousel-div">
-            <img className="carousel-img" src={SliderImg4} alt="Image 3" /> </div>
+            <img 
+        
+            className="carousel-img" src={SliderImg4} alt="Image 3" /> </div>
           <div className="carousel-div">
-            <img className="carousel-img" src={SliderImg3} alt="Image 3" />
+            <img 
+         
+            className="carousel-img" src={SliderImg3} alt="Image 3" />
           </div>
         </Slide>
       </div>
