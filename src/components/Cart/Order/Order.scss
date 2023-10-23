@@ -17,9 +17,10 @@
     .client-detail {
         width: 100%;
         height: 100%;
-        background-color: rgb(220, 240, 240);
+
         display: flex;
         flex-direction: column;
+        margin-top: 5rem;
 
         @include md {
             width: 700px;
@@ -27,12 +28,13 @@
 
         .title {
             width: 100%;
-            height: 30px;
+            height: 40px;
             color: white;
-            background-color: black;
+            background-color: #212121;
             justify-content: center;
             display: flex;
             align-items: center;
+            margin-bottom: 2rem;
 
         }
 
@@ -41,6 +43,7 @@
             margin-left: 1rem;
             display: flex;
             flex-direction: column;
+            justify-content: flex-start;
 
             @include md {
                 padding: 1rem;
@@ -59,13 +62,14 @@
 
             .row1 {
 
-                margin: 10px;
                 gap: 1rem;
                 display: flex;
                 flex-direction: column;
 
+
                 @include md {
                     flex-direction: row;
+                    margin: 10px;
                 }
 
                 input {
@@ -74,6 +78,7 @@
                     border-radius: 3px;
                     border: none;
                     width: 300px;
+                    border: 2px solid #212121;
 
                     @include md {
                         width: 200px;
@@ -83,12 +88,14 @@
 
             .row2 {
 
-                gap: 1rem;
+                gap: 12px;
                 display: flex;
                 flex-direction: column;
 
+
                 @include md {
                     flex-direction: row;
+                    margin: 10px;
                 }
 
                 input {
@@ -97,6 +104,7 @@
                     border-radius: 3px;
                     border: none;
                     width: 300px;
+                    border: 2px solid #212121;
 
                     @include md {
                         width: 198px;
@@ -106,12 +114,13 @@
 
             .row3 {
                 display: flex;
-                margin: 10px;
+
                 gap: 1rem;
                 flex-direction: column;
 
                 @include md {
                     flex-direction: row;
+                    margin: 10px;
                 }
 
                 input {
@@ -120,6 +129,7 @@
                     border-radius: 3px;
                     border: none;
                     width: 300px;
+                    border: 2px solid #212121;
 
                     @include md {
                         width: 93px;
@@ -129,12 +139,13 @@
 
             .row4 {
                 display: flex;
-                margin: 10px;
+
                 gap: 1rem;
                 flex-direction: column;
 
                 @include md {
                     flex-direction: row;
+                    margin: 10px;
                 }
 
                 select {
@@ -143,6 +154,7 @@
                     border-radius: 3px;
                     border: none;
                     width: 300px;
+                    border: 2px solid #212121;
 
                     @include md {
                         width: 200px;
@@ -153,9 +165,11 @@
             .row5 {
                 display: flex;
                 flex-direction: column;
+                margin-top: 2rem;
 
                 @include md {
                     flex-direction: column;
+                    margin: 10px;
                 }
 
                 input {
@@ -164,6 +178,7 @@
                     border-radius: 3px;
                     border: none;
                     width: 300px;
+                    border: 2px solid #212121;
 
                     @include md {
                         width: 576px;
@@ -171,20 +186,26 @@
                 }
             }
 
-            
+
 
         }
+
         .button {
             display: flex;
             justify-content: center;
             align-items: center;
             padding-left: 1rem;
-            width: 100%;
+            width: 300px;
             height: 40px;
-            background-color: black;
+            background-color: #212121;
             color: white;
             border-radius: 5px;
             cursor: pointer;
+            margin-top: 2rem;
+
+            @include md {
+                width: 100%;
+            }
 
             &:hover {
                 background-color: white;
@@ -196,20 +217,27 @@
     }
 
     .product-detail {
-        width: 400px;
+        width: 100%;
         height: 100%;
         background-color: rgb(220, 240, 240);
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
         .product {
-            width: 100%;
+            width: 300px;
             height: 30px;
             color: white;
-            background-color: black;
+            background-color:  #212121;
             justify-content: center;
             display: flex;
             align-items: center;
+            justify-content: center;
+            
+            @include md{
+                width: 100%;
+            }
         }
 
         .detail {

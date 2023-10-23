@@ -69,12 +69,12 @@ const Order = () => {
             const orderDetails = {
                 formDetails,
                 productDetails,
-            };
+            };  
 
             const whatsappMessage = JSON.stringify(orderDetails, null, 2);
 
             // Create a WhatsApp message link with the message
-            const whatsappURL = `https://wa.me/3244773614?text=${encodeURIComponent(whatsappMessage)}`;
+            const whatsappURL = `https://wa.me/447918099801?text=${encodeURIComponent(whatsappMessage)}`;
 
             // Open the WhatsApp link in a new window
             window.open(whatsappURL);
