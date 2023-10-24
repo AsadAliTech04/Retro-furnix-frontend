@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className="c-item">
                         <UilMobileAndroid />
                         <div className="text">
-                           Phone: 324 477 3614
+                            Phone: 324 477 3614
                         </div>
                     </div>
                     <div className="c-item">
@@ -58,7 +58,7 @@ const Footer = () => {
                     <div className="title">Pages</div>
                     <span className="text">Home</span>
                     <span className="text">About</span>
-                  <  span className="text">Privacy Policy</span>
+                    <  span className="text">Privacy Policy</span>
                     <span className="text"> Returns</span>
                     <span className="text"> Terms & Conditions </span>
                     <span className="text">Contact Us</span>
@@ -67,10 +67,10 @@ const Footer = () => {
             <div className="bottom-bar">
                 <div className="bar-content">
                     <div className="text">
-                        RETRO FURNIX  CREATED BY ASAD ALI TECH . PREMIUM E-COMMERCE
+                        Retrofurnix.com | We Sell Best Quality Furniture in UK. FREE DELIVERY. PREMIUM E-COMMERCE
                         SOLUTIONS.
                     </div>
-                    <img src={Payment} alt=""/>
+                    <img src={Payment} alt="" />
                 </div>
             </div>
         </div>
