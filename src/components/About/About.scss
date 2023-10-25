@@ -29,11 +29,21 @@
             }
 
             .left {
-                display: none;
+                display: block;
+                img{
+                    width: 200px;
+                    border-radius: 50%;
+                    margin-bottom: 3rem;
+                }
 
                 @include md {
                     display: block;
+                    img{
+                        width: 300px;
+                        border-radius: 50%;
+                       }
                 }
+               
             }
 
             .right {

@@ -27,7 +27,7 @@ function Contact() {
 
     emailjs.sendForm('service_zheuwpi', 'template_prby4pf', form.current, 'wNKUDWsWhwXQwh04H')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text);    
           setDone(true);
       }, (error) => {
           console.log(error.text);

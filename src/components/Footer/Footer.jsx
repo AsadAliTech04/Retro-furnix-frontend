@@ -12,10 +12,7 @@ const Footer = () => {
                 <div className="col">
                     <div className="title">About</div>
                     <div className="text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Adipisci iure, culpa non optio ad vero quam molestias,
-                        quaerat atque rerum, officia error doloremque.
-                        Praesentium nam
+                        Discover the perfect blend of style and affordability at RetroFurnix, your destination for furniture sales in the UK. Elevate your home with timeless pieces today
 
                     </div>
                 </div>
@@ -24,21 +21,19 @@ const Footer = () => {
                     <div className="c-item">
                         <UilLocationArrow />
                         <div className="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Aspernatur eius
-
+                            377 Wanstead Park Road | Ilford | IG1 3TT
                         </div>
                     </div>
                     <div className="c-item">
                         <UilMobileAndroid />
                         <div className="text">
-                            Phone: 324 477 3614
+                            Phone: +447918099801
                         </div>
                     </div>
                     <div className="c-item">
                         <UilEnvelopeAlt />
                         <div className="text">
-                            E-maiil: asadalihanif04@gmail.com
+                            E-maiil: retrofurnix@gmail.com
 
                         </div>
                     </div>

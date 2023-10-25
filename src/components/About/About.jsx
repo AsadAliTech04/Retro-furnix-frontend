@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.scss"
 import Service from "../../assets/my Image/service.jpg";
+import Logo from "../../assets/reto-furnix-logo.jpg";
 
 
 
@@ -11,7 +12,7 @@ function About() {
         <div className="com-logo">
           <div className="left">
             <div className="img">
-              <img src={Service} alt="" />
+              <img src={Logo} alt="" />
 
             </div>
           </div>
@@ -20,14 +21,10 @@ function About() {
               <span>About Us</span>
             </div>
             <div className="headline">
-              <span>Sample Headline</span>
+              <span>Retro Furnix</span>
             </div>
             <div className="desc">
-              <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Nemo iste laborum vero odio enim qui perspiciatis debitis! Eius
-                , quibusdam fugit magnam ullam quasi, consectetur numquam
-                repudiandae ad nam pariatur in Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Placeat, atque sunt.
+              <span>Discover the UK's finest furniture deals at RetroFurnix. We offer a stunning collection of retro and vintage furniture pieces that blend style and affordability. Elevate your home's charm with our unique selection, making your space a true reflection of your taste and personality. Shop now!
               </span>
             </div>
           </div>
@@ -35,10 +32,15 @@ function About() {
         <div className="detail">
           <div className="desc">
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis animi soluta, est corporis consectetur excepturi quo doloribus dolorem fugit alias vero asperiores nesciunt non culpa autem quidem.
-              Perspiciatis, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae iusto commodi, voluptates et nostrum quidem laborum non facere ab dolores, eaque temporibus fuga. Nam ullam sapiente
-              adipisci quasi alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, atque laboriosam, aliquid id eaque consequatur corporis sit eligendi sequi odit deserunt, totam tempore
-              magnam et quisquam neque repellat voluptatem veritatis.
+              Welcome to RetroFurnix, your ultimate destination for discovering exquisite furniture that effortlessly blends affordability with style. At RetroFurnix, we take pride in offering an extensive range of retro and vintage furniture pieces, all curated to cater to your unique taste and preferences.
+
+              Our commitment to providing high-quality furniture at competitive prices makes us a top choice for those seeking to enhance their living spaces across the UK. Whether you're looking to revamp your living room, bedroom, or any other area of your home, our collection offers something for every corner.
+
+              Explore our website to find an array of carefully chosen items, from mid-century modern sofas to chic dining tables and distinctive decor elements. Each piece tells its own story, combining the nostalgia of yesteryears with the practicality of today's needs.
+
+              We understand that your home is a canvas for self-expression, and our furniture complements your vision. By choosing RetroFurnix, you can transform your living space into a unique and charming sanctuary that truly reflects your personality and style.
+
+              With easy navigation, secure transactions, and prompt delivery services, your shopping experience with us is seamless and enjoyable. It's time to transform your living spaces into something exceptional. Explore RetroFurnix today and make your home truly your own."
             </span>
           </div>
         </div>
@@ -73,7 +75,7 @@ function About() {
           </div>
           <div className="row2">
             <div className="box3">
-            <div className="title">
+              <div className="title">
                 <span>Asad Ali</span>
 
               </div>
@@ -87,7 +89,7 @@ function About() {
               </div>
             </div>
             <div className="box4">
-            <div className="title">
+              <div className="title">
                 <span>Asad Ali</span>
 
               </div>

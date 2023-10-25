@@ -12,6 +12,10 @@ import SalesImg1 from "../../../assets/sales1.jpg"
 import SalesImg2 from "../../../assets/sales2.jpg"
 import SalesImg3 from "../../../assets/sales3.jpg"
 import SalesImg4 from "../../../assets/sales4.jpg"
+import slider4 from "../../../assets/mobileSlider1.jpg"
+import slider5 from "../../../assets/mobileSlider2.jpg"
+import slider6 from "../../../assets/mobileSlider3.jpg"
+import slider7 from "../../../assets/mobileSlider4.jpg"
 
 
 import { Slide } from 'react-slideshow-image';
@@ -31,6 +35,7 @@ const Banner = () => {
   return (
     <>
       <div className="slide-container">
+        <div className="desktop-view">
         <Slide>
           <div className="carousel-div">
             <img
@@ -52,6 +57,31 @@ const Banner = () => {
             className="carousel-img" src={SliderImg3} alt="Image 3" />
           </div>
         </Slide>
+        </div>
+        <div className="mobile-view">
+        <Slide>
+          <div className="carousel-div">
+            <img
+             
+            className="carousel-img" src={slider4} alt="Image 1" />
+          </div>
+          <div className="carousel-div">
+            <img
+             
+            className="carousel-img" src={slider5} alt="Image 2" />
+          </div>
+          <div className="carousel-div">
+            <img 
+        
+            className="carousel-img" src={slider6} alt="Image 3" /> </div>
+          <div className="carousel-div">
+            <img 
+         
+            className="carousel-img" src={slider7} alt="Image 3" />
+          </div>
+        </Slide>
+        </div>
+       
       </div>
 
       <div className="sales">
