@@ -52,9 +52,9 @@ function About() {
 
               </div>
               <div className="desc">
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Culpa voluptatem deserunt maxime voluptate voluptas iure facilis
-                  beatae officia .</span>
+                <span>
+                  At RetroFurnix, our dedicated team of experts ensures top-quality furniture, offering a personalized touch to every piece. Meet our passionate staff today!
+                </span>
               </div>
 
             </div>

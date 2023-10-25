@@ -42,7 +42,8 @@
             background-position: center;
             background-size: cover;
             max-width: 100%;
-
+              width: 100%;
+              height: 100%;
             object-fit: cover;
 
             @include md {
@@ -54,6 +55,11 @@
 
                 object-fit: cover;
             }
+            // @media screen and (max-width:348px) {
+            //      .carousel-img{
+            //         width: 280px;
+            //      }
+            // }
         }
 
 

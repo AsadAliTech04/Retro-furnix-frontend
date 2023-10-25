@@ -25,7 +25,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_zheuwpi', 'template_prby4pf', form.current, 'wNKUDWsWhwXQwh04H')
+    emailjs.sendForm('service_w8wqyn9', 'template_5730wvf', form.current, 'xLdV6rpMsI-xlsU7a')
       .then((result) => {
           console.log(result.text);    
           setDone(true);
@@ -43,9 +43,7 @@ function Contact() {
           </div>
           <div className="detail">
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nemo voluptas tempore placeat,
-              ex et aperiam, nesciunt saepe veniam laudantium optio alias culpa inventore deserunt
-              dolores sunt autem corrupti! Quidem!
+             Connect with RetroFurnix to explore our exquisite furniture collection in the UK. Reach out for inquiries, custom orders, or any assistance. We're here to transform your living space with timeless pieces!
             </span>
           </div>
         </div>
