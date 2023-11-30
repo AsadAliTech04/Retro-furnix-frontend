@@ -5,6 +5,7 @@ import Produts from "../Products/Products"
 import { useEffect , useContext } from "react";
 import { fetchDataFromApi } from "../../Utils/Api";
 import {Context} from "../../Utils/Context"
+import {Helmet} from "react-helmet";
 
 const Home = () => {
    const { categories ,setCategories,products,setProducts} = useContext(Context);
@@ -29,7 +30,11 @@ const Home = () => {
     }
 
     return <div >
-
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>Retro Furnix</title>
+                <link rel="canonical" href="https://retrofurnix.com/" />
+            </Helmet>
         <Banner />
         <div className="main-content">
             <div className="layout">

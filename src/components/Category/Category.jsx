@@ -2,6 +2,8 @@ import "./Category.scss";
 import Products from "../Products/Products"
 import useFetch from "../../useFetch/useFetch"
 import { useParams } from "react-router-dom";
+import {Helmet} from "react-helmet";
+
 const Category = () => {
     const { id } = useParams();
     const  data  = useFetch(
@@ -9,6 +11,11 @@ const Category = () => {
     );
     return(
         <div className="category-main-content">
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Retro Furnix</title>
+                <link rel="canonical" href="https://retrofurnix.com/category/:id" />
+            </Helmet>
             <div className="layout">
                 <div className="category-title">
                 {

@@ -19,6 +19,8 @@ import {
 import useFetch from "../../useFetch/useFetch"
 import { useParams } from "react-router-dom";
 import { Context } from "../../Utils/Context";
+import {Helmet} from "react-helmet";
+
 
 
 
@@ -118,6 +120,11 @@ const SingleProduct = () => {
 
     return (
         <div className="single-product-main-content">
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Retro Furnix</title>
+                <link rel="canonical" href="https://retrofurnix.com/product/:id" />
+            </Helmet>
             <div className="layout">
                 <div className="single-product-page">
                     <div className="left">
