@@ -8,8 +8,7 @@
     </url>
 
     <!-- Categories and Products -->
-    [CDATA[
-    {categories.map(category => (
+    <!-- {categories.map(category => (
         <url key={category.id}>
             <loc>http://retrofurnix.com/category/{category.id}</loc>
             <changefreq>weekly</changefreq>
@@ -22,8 +21,7 @@
                 <priority>0.7</priority>
             </url>
         ))}
-    ))}
-]
+    ))} -->
 
     <!-- About Page -->
     <url>
