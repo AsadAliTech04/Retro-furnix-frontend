@@ -2,6 +2,7 @@ import React from 'react'
 import "./About.scss"
 import Service from "../../assets/my Image/service.jpg";
 import Logo from "../../assets/reto-furnix-logo.jpg";
+import { Helmet } from 'react-helmet';
 
 
 
@@ -16,6 +17,11 @@ function About() {
         <title>Retro Furnix| About</title>
         <link rel="canonical" href="https://retrofurnix.com/about" />
       </Helmet> */}
+      <Helmet>
+        <title>RetroFurnix - About</title>
+        <meta name="description" content="Learn more about RetroFurnix - Your destination for quality vintage furniture" />
+       
+      </Helmet>
       <div className="content">
         <div className="com-logo">
           <div className="left">

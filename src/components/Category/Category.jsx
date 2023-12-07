@@ -11,10 +11,9 @@ const Category = () => {
     );
     return(
         <div className="category-main-content">
-             <Helmet>
-                <meta charSet="utf-8" />
-                <title>Retro Furnix</title>
-                <link rel="canonical" href="https://retrofurnix.com/category/:id" />
+              <Helmet>
+                <title>RetroFurnix - Category</title>
+                <meta name="description" content="Explore our vintage furniture categories" />
             </Helmet>
             <div className="layout">
                 <div className="category-title">

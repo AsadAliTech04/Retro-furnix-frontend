@@ -120,10 +120,9 @@ const SingleProduct = () => {
 
     return (
         <div className="single-product-main-content">
-             <Helmet>
-                <meta charSet="utf-8" />
-                <title>Retro Furnix</title>
-                <link rel="canonical" href="https://retrofurnix.com/product/:id" />
+              <Helmet>
+                <title>RetroFurnix - Single Product</title>
+                <meta name="description" content="View details of a specific vintage furniture product" />
             </Helmet>
             <div className="layout">
                 <div className="single-product-page">

@@ -3,6 +3,7 @@ import "./Order.scss"
 import { useContext } from "react";
 import { Context } from "../../../Utils/Context";
 import queryString from 'query-string';
+import { Helmet } from 'react-helmet';
 
 const Order = () => {
     const { cartItems } = useContext(Context);
@@ -69,7 +70,7 @@ const Order = () => {
             const orderDetails = {
                 formDetails,
                 productDetails,
-            };  
+            };
 
             const whatsappMessage = JSON.stringify(orderDetails, null, 2);
 
@@ -90,6 +91,11 @@ const Order = () => {
 
     return (
         <div className="main-order">
+            <Helmet>
+                <title>RetroFurnix - Order</title>
+                <meta name="description" content="Track and manage your orders with RetroFurnix" />
+              
+            </Helmet>
             <div className="client-detail">
                 <div className="title">
                     <span className="title-text">
@@ -148,10 +154,10 @@ const Order = () => {
                             <label>Additional informatoin about your order</label>
                             <input type="message" id='message' name="message" />
                         </div>
-                          <div className="error-message">{errorMessage}</div>
-                      
-                            <button className='button' type="submit">Confirm order</button>
-                        
+                        <div className="error-message">{errorMessage}</div>
+
+                        <button className='button' type="submit">Confirm order</button>
+
                     </form>
                 </div>
                 {/* <div className="button" type="submit">

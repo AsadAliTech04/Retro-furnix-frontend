@@ -4,6 +4,7 @@ import Service from "../../assets/my Image/service.jpg";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -43,6 +44,11 @@ function Contact() {
         <title>Retro Furnix | Contact</title>
         <link rel="canonical" href="https://retrofurnix.com/contact" />
       </Helmet> */}
+      <Helmet>
+        <title>RetroFurnix - Contact</title>
+        <meta name="description" content="Contact RetroFurnix for inquiries and support" />
+     
+      </Helmet>
       <div className="content">
         <div className="head">
 
